@@ -11,7 +11,7 @@ class App extends Component {
     guests: [
       {
         name: 'Ali',
-        isConfirmed: false,
+        isConfirmed: true,
         isEditing: false
       },
       {
@@ -21,7 +21,7 @@ class App extends Component {
       },
       {
         name: 'Thomas',
-        isConfirmed: false,
+        isConfirmed: true,
         isEditing: true
       }
     ]
