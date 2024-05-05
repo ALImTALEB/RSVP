@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 
 import Header from './Header';
 import MainContent from './MainContent';
@@ -11,17 +10,17 @@ class App extends Component {
     pendingGuest: "",
     guests: [
       {
-        name: 'Treasure',
+        name: 'Ali',
         isConfirmed: false,
         isEditing: false
       },
       {
-        name: 'Nic',
+        name: 'Lisa',
         isConfirmed: true,
         isEditing: false
       },
       {
-        name: 'Matt K',
+        name: 'Thomas',
         isConfirmed: false,
         isEditing: true
       }
